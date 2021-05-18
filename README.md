@@ -1,2 +1,5 @@
 # yelp-sent-analysis-py
-Using Yelp reviews and Yelp users metadata to predict the star rating a user would give to a business
+The task for this project consists of using Yelp reviews and information about Yelp users to predict the star rating a user would give to a business. Yelp is a website that allows users to post text reviews about various businesses they visit and also leave star ratings that reflect their experiences. Using machine learning to predict user ratings can prove helpful for the businesses in assessing their services and better understanding their customers. It can help them fix the things their customers are displeased with or capitalize on the things that their customers are satisfied with. In this project we perform sentiment analysis on the text reviews left by the users to obtain a sentiment feature for the text, and use that in addition to other review metadata and information about the user to predict the star rating associated with each review. We use the spark-nlp library for sentiment analysis and the multilayer perceptron from pyspark’s machine learning library to obtain the star rating prediction.
+
+
+Full Report can be found at [Predicting_User_Ratings_on_Yelp.pdf](https://github.com/rajdeepslather/yelp-sent-analysis-py/blob/main/Predicting_User_Ratings_on_Yelp.pdf)
